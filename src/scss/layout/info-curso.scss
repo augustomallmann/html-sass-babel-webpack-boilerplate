@@ -1,0 +1,66 @@
+#info-curso {
+  margin: 180px 0 0px;
+  .infos {
+    background-color: $primary;
+    border-radius: 8px;
+    margin: 0 0 60px;
+    ul {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      list-style: none;
+      padding: 30px;
+      li {
+        border-right: 1px solid #001874;
+        padding: 0 27px;
+        &:last-of-type {
+          border: 0;
+        }
+        p {
+          margin: 0;
+          color: white;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .formacao{
+    text-align: center;
+    margin: 0 0 35px;
+    h1{
+      color: $secundary;
+      font-size: 26px;
+      line-height: 30px;
+      font-weight: bold;
+      margin: 0 25%;
+    }
+    p{
+      margin: 20px 15%;
+    }
+  }
+  .fluxograma{
+    display: flex;
+    justify-content: center;
+    .mais{
+      padding: 5px;
+    }
+    .box-azul{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      background-color: $primary;
+      color: white;
+      border-radius: 8px;
+      padding: 50px;
+      width: calc((100% / 3) - 60px);
+      p{
+        margin:0;
+      }
+    }
+  } 
+  .separador{
+    margin: 90px 0 45px
+  } 
+  
+}

@@ -1,0 +1,22 @@
+#texto-apoio{
+padding: 75px 0;
+  .row{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+  h1{
+    color: $primary;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+  p{
+    line-height: 24px;
+
+  }
+
+
+}

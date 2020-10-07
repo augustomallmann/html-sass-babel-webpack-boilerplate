@@ -1,8 +1,19 @@
-@import "variables/media";
+
+
+@import "variables/colors";
 
 @import "mixin/media";
 
 @import "util/grid";
+
+@import "layout/texto-apoio";
+@import "layout/cta";
+@import "layout/formulario";
+@import "layout/hero";
+@import "layout/info-curso";
+@import "layout/perfil-profissional";
+@import "layout/razoes";
+
 
 @import "lib/normalize";
 
